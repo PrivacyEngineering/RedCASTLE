@@ -1,8 +1,8 @@
-<img width="200" src="images/castle_logo.jpg" alt="logo"> 
+<center><img width="200" src="images/castle_logo.jpg" alt="logo"></center>
 
 
 # RedCASTLE
-### k-Anonymity for Streaming Data in Node-RED
+### Practically Applicable k_s-Anonymity for IoT Streaming Data at the Edge in Node-RED
 
 ## Summary
 This is a project done during the Summer Semester 2021 at the Technical University Berlin in the module Privacy Engineering. 
