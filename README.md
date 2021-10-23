@@ -4,8 +4,23 @@
 # RedCASTLE
 ### Practically Applicable k_s-Anonymity for IoT Streaming Data at the Edge in Node-RED
 
+```bibtex
+@inproceedings{redcastle2021,
+	author = {Frank Pallas and Julian Legler and Niklas Amslgruber and Elias Grünewald},
+	title = {{RedCASTLE}: Practically Applicable $k_s$-Anonymity for {IoT} Streaming Data at the Edge in {Node-RED}},
+	year = {2021},
+	isbn = {978-1-4503-9167-2/21/12},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3429881.3430107},
+	doi = {10.1145/3493369.3493601},
+	location = {Virtual Event, Canada},
+	bookTitle = {Proceedings of the 8th International Workshop on Middleware and Applications for the Internet of Things}
+}
+```
+
 ## Summary
-This is a project done during the Summer Semester 2021 at the Technical University Berlin in the module Privacy Engineering. 
+This is a project mainl< done during the Summer Semester 2021 at the Technical University Berlin in the module Privacy Engineering. 
 The goal was to implement privacy related features in an actual use case to provide value for others in the future. In this project k-Anonymity for streaming data is implemented in the Node-Red environment. 
 
 This repository is based on [CASTLEGUARD](https://github.com/hallnath1/CASTLEGUARD), which implements the [CASTLE (Continuously Anonymizing STreaming data via adaptive cLustEring)](https://ieeexplore.ieee.org/abstract/document/5374415) algorithm by J. Cao, B. Carminati, E. Ferrari and K. Tan. 
