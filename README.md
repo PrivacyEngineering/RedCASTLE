@@ -3,6 +3,7 @@
 
 # RedCASTLE
 ### Practically Applicable k_s-Anonymity for IoT Streaming Data at the Edge in Node-RED
+[**Download paper**](https://arxiv.org/pdf/2110.15650)
 
 ```bibtex
 @inproceedings{redcastle2021,
