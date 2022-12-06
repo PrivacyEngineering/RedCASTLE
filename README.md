@@ -246,3 +246,17 @@ Add a alternative way to interpret the car prices by adding car_price_alt which 
 }
 ```
 message object structure for this example: msg.changeConditions.changeRangeBased (object)
+
+# Troubleshooting
+
+For some reason the ZeroMQ packages are not properly installed automatically, so this has to be done manually:
+
+1. So you access the Node-RED dashboard: http://127.0.0.1:1880
+2. Press the "Hamburger menu" in the top right corner
+3. Manage Palette
+4. In the new window then click on the installation tab
+5. Enter "node-red-contrib-zeromq" in the search field
+6. Then click on "install" above the found entry in the list below.
+7. Reload Dashboard
+
+We already had enormous problems with the ZeroMQ library and the reliable installation and use back then. We then decided on an alternative Node-RED broker that is not extremely outdated and at the same time compatible with zeromq, since the "CASTLE" part in the form of the Python scripts should use zeromq.
